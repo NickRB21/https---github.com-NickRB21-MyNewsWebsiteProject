@@ -18,12 +18,12 @@ export var newsList = [
 
 export function search() {
   //inputValue is the variable that contains the search string
-  const inputValue = document.getElementById("search-input").value;
-
-return newsList.filter(
+  //const inputValue = document.getElementById("search-input").value;
+ const inputValue = "I am a cool web developer";
+/*return newsList.filter(
 (element) => element.toLowerCase().indexOf(inputValue.toLowerCase()) > -1
 );
-
+*/
   return newsList;
 }
 
